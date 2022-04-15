@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ElevenNote.Models
+namespace ElevenNoteWebMVC.Models
 {
     public class ErrorViewModel
     {

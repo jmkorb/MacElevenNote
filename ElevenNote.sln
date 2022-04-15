@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.810.21
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevenNote", "ElevenNote\ElevenNote.csproj", "{34756421-9D54-4F63-B6C8-8410010D9AE7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevenNoteData", "ElevenNoteData\ElevenNoteData.csproj", "{E44BC061-8711-45A6-99DF-80CF613BD026}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevenNoteModels", "ElevenNoteModels\ElevenNoteModels.csproj", "{D2B8722A-319D-49AF-888F-C370C3CFBCA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevenNoteServices", "ElevenNoteServices\ElevenNoteServices.csproj", "{32B0F44D-F5CC-49BC-8F38-D96593494D2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevenNoteInterfaces", "ElevenNoteInterfaces\ElevenNoteInterfaces.csproj", "{0A1E6434-2F4A-46A0-BFAD-7F0597E4AC80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevenNoteWebMVC", "ElevenNoteWebMVC\ElevenNoteWebMVC.csproj", "{F4230FA4-01A2-4C5A-BEF3-9CD26C5A1F0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +19,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{34756421-9D54-4F63-B6C8-8410010D9AE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{34756421-9D54-4F63-B6C8-8410010D9AE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{34756421-9D54-4F63-B6C8-8410010D9AE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{34756421-9D54-4F63-B6C8-8410010D9AE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E44BC061-8711-45A6-99DF-80CF613BD026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E44BC061-8711-45A6-99DF-80CF613BD026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E44BC061-8711-45A6-99DF-80CF613BD026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E44BC061-8711-45A6-99DF-80CF613BD026}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2B8722A-319D-49AF-888F-C370C3CFBCA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2B8722A-319D-49AF-888F-C370C3CFBCA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2B8722A-319D-49AF-888F-C370C3CFBCA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2B8722A-319D-49AF-888F-C370C3CFBCA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32B0F44D-F5CC-49BC-8F38-D96593494D2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32B0F44D-F5CC-49BC-8F38-D96593494D2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32B0F44D-F5CC-49BC-8F38-D96593494D2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32B0F44D-F5CC-49BC-8F38-D96593494D2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A1E6434-2F4A-46A0-BFAD-7F0597E4AC80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A1E6434-2F4A-46A0-BFAD-7F0597E4AC80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A1E6434-2F4A-46A0-BFAD-7F0597E4AC80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A1E6434-2F4A-46A0-BFAD-7F0597E4AC80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4230FA4-01A2-4C5A-BEF3-9CD26C5A1F0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4230FA4-01A2-4C5A-BEF3-9CD26C5A1F0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4230FA4-01A2-4C5A-BEF3-9CD26C5A1F0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4230FA4-01A2-4C5A-BEF3-9CD26C5A1F0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

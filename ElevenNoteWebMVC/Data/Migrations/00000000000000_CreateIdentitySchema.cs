@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace ElevenNote.Data.Migrations
+namespace ElevenNoteWebMVC.Data.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {

@@ -5,9 +5,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using ElevenNote.Models;
+using ElevenNoteWebMVC.Models;
 
-namespace ElevenNote.Controllers
+namespace ElevenNoteWebMVC.Controllers
 {
     public class HomeController : Controller
     {
