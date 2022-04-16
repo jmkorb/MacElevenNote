@@ -12,5 +12,7 @@ namespace ElevenNoteWebMVC.Data
             : base(options)
         {
         }
+
+        public DbSet<Note> Notes { get; set; }
     }
 }
